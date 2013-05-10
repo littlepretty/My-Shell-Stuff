@@ -1,0 +1,164 @@
+parsec-3.0
+|	|---pkgs
+|	|	|---apps
+|	|	|	|---blackscholes
+|	|	|	|	|---inputs
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---bodytrack
+|	|	|	|	|---inputs
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---facesim
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---ferret
+|	|	|	|	|---inputs
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---fluidanimate
+|	|	|	|	|---inputs
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---freqmine
+|	|	|	|	|---inputs
+|	|	|	|	|---inst
+|	|	|	|	|---obj
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---raytrace
+|	|	|	|	|---inputs
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---swaptions
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---vips
+|	|	|	|	|---inputs
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---x264
+|	|	|	|	|---inputs
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|---kernels
+|	|	|	|---canneal
+|	|	|	|	|---inputs
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---dedup
+|	|	|	|	|---inputs
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---streamcluster
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|---libs
+|	|	|	|---glib
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---gsl
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---hooks
+|	|	|	|	|---inst
+|	|	|	|	|---obj
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---libjpeg
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---libxml2
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---mesa
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---parmacs
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---ssl
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---tbblib
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---uptcpip
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---zlib
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|---netapps
+|	|	|	|---netdedup
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---netferret
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---netstreamcluster
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|---tools
+|	|	|	|---cmake
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---libtool
+|	|	|	|	|---inst
+|	|	|	|	|---obj
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|	|	|---yasm
+|	|	|	|	|---parsec
+|	|	|	|	|---src
+|	|	|	|	|---version
+|	|---config
+|	|	|---alpha-gcc-hooks.bldconf
+|	|	|---bibliography
+|	|	|---darwin.sysconf
+|	|	|---gcc.bldconf
+|	|	|---gcc-hooks.bldconf
+|	|	|---gcc-openmp.bldconf
+|	|	|---gcc-pthreads.bldconf
+|	|	|---gcc-serial.bldconf
+|	|	|---gcc-tbb.bldconf
+|	|	|---graphite.bldconf
+|	|	|---icc.bldconf
+|	|	|---linux.sysconf
+|	|	|---native.runconf
+|	|	|---packages
+|	|	|---simdev.runconf
+|	|	|---simlarge.runconf
+|	|	|---simmedium.runconf
+|	|	|---simsmall.runconf
+|	|	|---solaris.sysconf
+|	|	|---test.runconf

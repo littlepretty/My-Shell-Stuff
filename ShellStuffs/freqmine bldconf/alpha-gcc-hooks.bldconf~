@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# gcc-hooks.bldconf - configuration file for PARSEC
+
+source ${PARSECDIR}/pkgs/apps/freqmine/parsec/gcc.bldconf
+
+build_env="CFLAGS=\"-fopenmp $CFLAGS\" CXXFLAGS=\"-fopenmp $CXXFLAGS\""
+
+# Package dependencies
+build_deps="hooks"
+

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# alpha-gcc-hooks.bldconf - configuration file for PARSEC
+
+source ${PARSECDIR}/pkgs/libs/hooks/parsec/gcc.bldconf
+
+CFLAGS+=" -DENABLE_M5_TRIGGER -DENABLE_M5_CKPTS"

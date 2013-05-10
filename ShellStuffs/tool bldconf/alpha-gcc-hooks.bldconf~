@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source ${PARSECDIR}/pkgs/tools/libtool/parsec/gcc.bldconf
+
+# Arguments to pass to the configure script, if it exists
+build_conf+="--verbose --host=alpha-unknown-linux-gnu"

@@ -1,0 +1,41 @@
+#!/bin/bash
+
+PARSECDIR=/home/yjq/parsec-3.0
+OUTPUTFILENAME='parsec-info'
+cat /dev/null > $OUTPUTFILENAME
+
+echo 'parsec-3.0' >> $OUTPUTFILENAME
+echo 'parsec-3.0'
+
+echo -e '|\t|---pkgs' >> $OUTPUTFILENAME
+echo -e '|\t|---pkgs'
+for pkg in `ls $PARSECDIR/pkgs`
+	do
+	echo -e '|\t|\t|---'$pkg >> $OUTPUTFILENAME
+	echo -e '|\t|\t|---'$pkg
+	for pkg_content in `ls $PARSECDIR/pkgs/$pkg`
+	do
+		echo -e '|\t|\t|\t|---'$pkg_content >> $OUTPUTFILENAME
+		echo -e '|\t|\t|\t|---'$pkg_content
+		for pkg_content_dir in `ls $PARSECDIR/pkgs/$pkg/$pkg_content`
+		do
+			echo -e '|\t|\t|\t|\t|---'$pkg_content_dir >> $OUTPUTFILENAME
+			echo -e '|\t|\t|\t|\t|---'$pkg_content_dir
+		done
+	done
+done
+
+echo -e '|\t|---config' >> $OUTPUTFILENAME
+echo -e '|\t|---config'
+for bldconf in `ls $PARSECDIR/config`
+do
+	echo -e '|\t|\t|---'$bldconf >> $OUTPUTFILENAME
+	echo -e '|\t|\t|---'$bldconf
+done
+
+
+
+
+
+	
+
